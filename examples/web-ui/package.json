@@ -4,14 +4,21 @@
   "description": "A simple web UI for ableton link",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "build": "tsc ."
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "abletonlink": "file:../../",
-    "ts-node": "^8.5.4",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "typescript": "^3.7.3"
   },
   "author": "Yuichi Yogo",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.15"
+  }
 }
