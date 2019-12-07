@@ -1,0 +1,17 @@
+{
+  "name": "web-ui",
+  "version": "0.0.1",
+  "description": "A simple web UI for ableton link",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc ."
+  },
+  "dependencies": {
+    "abletonlink": "file:../../",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "author": "Yuichi Yogo",
+  "license": "MIT"
+}
